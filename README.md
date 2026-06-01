@@ -9,11 +9,11 @@ This is a Telegram bot with the main function of reminders, using Groq Artificia
 
 - 🧠 **Integrated artificial intelligence**
 
-  Uses a language model (LLM) to understand the context of the conversation. It understands synonyms, incomplete sentences, and even the user's mood.
+  Uses a language model (Groq) to understand the context of the conversation. It understands synonyms, incomplete sentences, and even the user's mood.
 
 - 🔔 **Periodic reminders**
 
-  The bot automatically notifies you every X minutes about your pending tasks, without you having to do anything.
+  The bot automatically notifies you every X time about your pending tasks, without you having to do anything.
 
 - 👥 **Multi-user**
 
