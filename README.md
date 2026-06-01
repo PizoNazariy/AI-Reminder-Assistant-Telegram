@@ -6,7 +6,7 @@ This is a Telegram bot with the main function of reminders, using Groq Artificia
 💬 Natural conversation
 No need to learn any commands. You can say "today I need to buy bread" or "I already called the doctor" and the bot understands on its own. Just like talking to a real person.
 
-🧠 Integrated artificial intelligence
+###🧠 Integrated artificial intelligence
 Uses a language model (LLM) to understand the context of the conversation. It understands synonyms, incomplete sentences and even the user's mood.
 
 🔔 Periodic reminders
