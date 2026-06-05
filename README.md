@@ -25,7 +25,7 @@ This is a Telegram bot with the main function of reminders, using Groq Artificia
 
 - 🗣️ **Conversation memory**
 
-  The bot remembers the conversation thread (last 20 messages) to give coherent and contextual responses.
+  The bot remembers the conversation thread (last 20 messages) to give coherent and contextual responses. Completed reminders have a 10-day period to review and manage their completion.
 
 - 🌍 **Multilingual**
 
