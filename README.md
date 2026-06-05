@@ -64,3 +64,56 @@ apscheduler
 3. The reminder is saved to the `recordatorios.json` file
 4. Every minute the scheduler checks for pending reminders and sends them
 5. Completed reminders are automatically deleted after 10 days
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.10+
+- Telegram account
+- Groq API key — [console.groq.com](https://console.groq.com)
+
+### Steps
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/your-username/Reminder_Bot.git
+cd Reminder_Bot
+```
+
+**2. Create virtual environment**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**3. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**4. Configure API keys**
+```bash
+cp .env.example .env
+nano .env
+```
+```
+TELEGRAM_TOKEN=your_telegram_token_here
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+**5. Create data file**
+```bash
+echo "[]" > recordatorios.json
+```
+
+**6. Run the bot**
+```bash
+python bot.py
+```
+
+### Run as a system service (Raspberry Pi)
+```bash
+sudo cp config/reminder-bot.service /etc/systemd/system/
+sudo systemctl enable reminder-bot
+sudo systemctl start reminder-bot
+```
