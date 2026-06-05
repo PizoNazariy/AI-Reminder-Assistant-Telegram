@@ -30,3 +30,11 @@ This is a Telegram bot with the main function of reminders, using Groq Artificia
 - 🌍 **Multilingual**
 
   Responds in the same language the user writes in — Catalan, Spanish, English, and more.
+
+
+##  📁 Structure
+
+Reminder_Bot/
+├── bot.py          # Principal code Bot 
+├── .env            # API keys
+└── recordatorios.json  #Reminders
