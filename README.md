@@ -33,8 +33,9 @@ This is a Telegram bot with the main function of reminders, using Groq Artificia
 
 
 ##  📁 Structure
-
+```
 Reminder_Bot/
 ├── bot.py          # Principal code Bot 
 ├── .env            # API keys
 └── recordatorios.json  #Reminders
+```
