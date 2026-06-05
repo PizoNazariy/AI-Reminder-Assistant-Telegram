@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)
+![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3-orange)
+
+
 # AI-Reminder-Assistant-Telegram
 This is a Telegram bot with the main function of reminders, using Groq Artificial Intelligence through an API and the code is written in Python.
 
