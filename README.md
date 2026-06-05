@@ -39,3 +39,28 @@ Reminder_Bot/
 ├── .env            # API keys
 └── recordatorios.json  #Reminders
 ```
+
+## 🛠️ Tech stack
+
+- **Python 3.10+** — Main language
+- **python-telegram-bot** — Telegram API connection
+- **Groq** — AI for natural language processing (model `llama-3.3-70b-versatile`)
+- **APScheduler** — Scheduler to send reminders automatically
+- **python-dotenv** — Environment variables management
+
+## 📦 Dependencies
+
+```
+python-telegram-bot
+groq
+python-dotenv
+apscheduler
+```
+
+## ⚙️ How it works
+
+1. The user sends a natural language message to the bot
+2. Groq interprets the message and extracts the intent (add, delete, list)
+3. The reminder is saved to the `recordatorios.json` file
+4. Every minute the scheduler checks for pending reminders and sends them
+5. Completed reminders are automatically deleted after 10 days
